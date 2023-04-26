@@ -1,0 +1,9 @@
+Team: Employee attrition
+•	Title, Authors: yes
+•	(15%) Motivation:  very nice motivation (I liked the stats you added); value preposition (nice). Summarized the results at the very beginning (nice)
+•	(15%) Data: IBM data (Kaggle). Target variable is clearly emphasized; Features chosen for analysis clearly chosen; summary stats of features (highlighted distribution of outcome). Recognized class imbalance (used SMOTE + ENN, nice).
+•	(15%) Approach:  baseline is LR. Improve with Decision Trees/Random Forests and KNN. LR results: loss shows steep decline, accuracy is plateauing (weird result, wondering why?). LR + SMOTE+ENN: loss curve is still declining (wondering if there is some mismatch data type within a feature). Decision tree with SMOTE + ENN: noisy learning on evaluation set. Can you show the number of examples by class on train, val, test sets? KNN doesn’t do well either (non-attrition is most misclassified)
+•	(30%) Experiments: yes
+•	(10%) Conclusions: Decision Trees have the highest recall. Wondering what other teams (see Kaggle) did in terms of performance.
+•	(15%) Code submission: yes, code is well organized and commented.
+•	Contributions: yes
